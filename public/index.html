@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Ranking Vote</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <h1>📊 Image Ranker</h1>
+            <div class="nav-links">
+                <a href="index.html" class="active">Vote</a>
+                <a href="results.html">Results</a>
+                <a href="countries.html">Countries</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="vote-container">
+            <h2>Which do you prefer?</h2>
+            <p class="instructions">Click on the image you like better</p>
+            
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>Loading images...</p>
+            </div>
+
+            <div id="vote-area" class="vote-area hidden">
+                <div class="image-card" id="card-a">
+                    <div class="image-wrapper">
+                        <img id="image-a" src="" alt="Option A">
+                    </div>
+                    <p class="image-label" id="label-a"></p>
+                    <button class="vote-button" id="vote-a">
+                        Choose This
+                    </button>
+                </div>
+
+                <div class="vs-divider">
+                    <span>VS</span>
+                </div>
+
+                <div class="image-card" id="card-b">
+                    <div class="image-wrapper">
+                        <img id="image-b" src="" alt="Option B">
+                    </div>
+                    <p class="image-label" id="label-b"></p>
+                    <button class="vote-button" id="vote-b">
+                        Choose This
+                    </button>
+                </div>
+            </div>
+
+            <div id="vote-success" class="vote-success hidden">
+                <div class="success-icon">✓</div>
+                <p>Vote recorded!</p>
+            </div>
+
+            <div id="error" class="error hidden"></div>
+
+            <div class="stats">
+                <p>Total votes cast: <span id="vote-count">0</span></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Images sourced from Wikimedia Commons (Public Domain)</p>
+        <p>Your votes help rank everyday objects!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
