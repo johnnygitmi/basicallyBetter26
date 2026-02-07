@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rankings - Image Ranker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <h1>📊 Image Ranker</h1>
+            <div class="nav-links">
+                <a href="index.html">Vote</a>
+                <a href="results.html" class="active">Results</a>
+                <a href="countries.html">Countries</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="results-container">
+            <h2>Global Rankings</h2>
+            <p class="subtitle">Most popular items based on all votes</p>
+
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>Loading rankings...</p>
+            </div>
+
+            <div id="rankings" class="rankings-grid hidden"></div>
+
+            <div id="error" class="error hidden"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Images sourced from Wikimedia Commons (Public Domain)</p>
+    </footer>
+
+    <script src="results.js"></script>
+</body>
+</html>
