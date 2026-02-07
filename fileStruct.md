@@ -1,4 +1,4 @@
-# basicallyBetter26
+# View As Code
 Ranking Daily Items
 vote-app/
 ├── netlify/
