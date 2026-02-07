@@ -1,4 +1,5 @@
 # View As Code
+File Structure
 Ranking Daily Items
 vote-app/
 ├── netlify/
