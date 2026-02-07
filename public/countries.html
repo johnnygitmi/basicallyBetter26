@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Stats - Image Ranker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <h1>📊 Image Ranker</h1>
+            <div class="nav-links">
+                <a href="index.html">Vote</a>
+                <a href="results.html">Results</a>
+                <a href="countries.html" class="active">Countries</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="results-container">
+            <h2>Votes by Country</h2>
+            <p class="subtitle">See which countries are participating</p>
+
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>Loading country data...</p>
+            </div>
+
+            <div id="country-stats" class="country-stats hidden"></div>
+
+            <div id="error" class="error hidden"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Country detection based on IP geolocation</p>
+    </footer>
+
+    <script src="countries.js"></script>
+</body>
+</html>
