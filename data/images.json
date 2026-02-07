@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Red Apple",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/320px-Red_Apple.jpg",
+    "category": "Food",
+    "source": "Wikimedia Commons - Public Domain"
+  },
+  {
+    "id": 2,
+    "name": "Wooden Chair",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Windsor_chair.jpg/320px-Windsor_chair.jpg",
+    "category": "Furniture",
+    "source": "Wikimedia Commons - Public Domain"
+  },
+  {
+    "id": 3,
+    "name": "Coffee Mug",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/320px-A_small_cup_of_coffee.JPG",
+    "category": "Kitchenware",
+    "source": "Wikimedia Commons - CC0"
+  },
+  {
+    "id": 4,
+    "name": "Bicycle",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Roadster_bicycle.jpg/320px-Roadster_bicycle.jpg",
+    "category": "Transportation",
+    "source": "Wikimedia Commons - Public Domain"
+  },
+  {
+    "id": 5,
+    "name": "Pencil",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Pensils_hb.jpg/320px-Pensils_hb.jpg",
+    "category": "Stationery",
+    "source": "Wikimedia Commons - CC0"
+  },
+  {
+    "id": 6,
+    "name": "Eyeglasses",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Glasses_800_edit.png/320px-Glasses_800_edit.png",
+    "category": "Accessories",
+    "source": "Wikimedia Commons - Public Domain"
+  },
+  {
+    "id": 7,
+    "name": "Wristwatch",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Wrist_watch.jpg/320px-Wrist_watch.jpg",
+    "category": "Accessories",
+    "source": "Wikimedia Commons - CC0"
+  },
+  {
+    "id": 8,
+    "name": "Hammer",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Claw-hammer.jpg/320px-Claw-hammer.jpg",
+    "category": "Tools",
+    "source": "Wikimedia Commons - Public Domain"
+  },
+  {
+    "id": 9,
+    "name": "Screwdriver",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Schraubendreher.jpg/320px-Schraubendreher.jpg",
+    "category": "Tools",
+    "source": "Wikimedia Commons - Public Domain"
+  },
+  {
+    "id": 10,
+    "name": "Tennis Ball",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Tennis_ball.jpg/320px-Tennis_ball.jpg",
+    "category": "Sports",
+    "source": "Wikimedia Commons - Public Domain"
+  }
+]
