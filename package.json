@@ -1,0 +1,15 @@
+{
+  "name": "image-vote-app",
+  "version": "1.0.0",
+  "description": "Image ranking voting application",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.10.1"
+  }
+}
